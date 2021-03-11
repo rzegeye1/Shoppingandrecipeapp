@@ -9,7 +9,6 @@ import { Recipe } from '../recipe.model'
 export class RecipesDetailComponent implements OnInit {
   @Input() recipe: Recipe;
 
-
   constructor() { }
 
   ngOnInit(): void {
